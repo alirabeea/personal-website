@@ -1,0 +1,92 @@
+.menu--container{
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.menu--box{
+    background-color: black;
+    height: 45rem;
+    width: 45rem;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.menu--box--expanded{
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.menu--item{
+    background-color: lightblue;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 2.5rem;
+    margin: 0;
+    border: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.menu--item--expanded{
+    background-color: lightblue;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 1.5rem;
+    margin: 0;
+    border: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.menu--blankItem{
+    height: 2rem;
+    width: 2rem;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.menu--titles{
+    color:white;
+    line-height: 10%;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    columns: 2;
+}
+
+.menu--expanded {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    columns: 4;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.ahref, .ahref:hover, .ahref:visited, .ahref:active {
+    color: inherit;
+    text-decoration: none;
+}

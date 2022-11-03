@@ -1,0 +1,29 @@
+.navbar--container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.navbar--box {
+    height: 7.5rem;
+    width: 50%;
+    background: black;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: white;
+}
+
+
+.navbar--text {
+    font-size: 500%;
+}
+
+.navbar--box--expanded {
+    height: 15rem;
+    width: 50%;
+    background: black;
+    border-bottom-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: white;
+}

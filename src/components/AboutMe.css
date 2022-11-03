@@ -1,0 +1,47 @@
+.about--me--container{
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.about--me--box{
+    background-color: black;
+    height: 75rem;
+    width: 75rem;
+    border-radius: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.about--me--picture{
+    background-color: white;
+    height: 25rem;
+    width: 25rem;
+    border-radius: 20rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../assets/profile.jpg);
+}
+
+.about--me--textBox{
+    background-color: white;
+    height: 38.5rem;
+    width: 65rem;
+    border-radius: 3rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: left;
+    padding: 2.5rem;
+    margin-top: 2rem;
+    font-size: 30px;
+}
